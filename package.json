@@ -1,5 +1,5 @@
 {
-  "name": "everify-node",
+  "name": "everify",
   "version": "0.0.2",
   "description": "Node client for the Everify API - secure SMS verification made simple",
   "repository": {
