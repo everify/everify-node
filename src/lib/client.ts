@@ -1,7 +1,6 @@
 import axios, { AxiosInstance } from 'axios';
 
 import { createError } from './errors';
-
 import { EVERY_NODE_VERSION } from './version';
 
 export enum EverifyApiError {
