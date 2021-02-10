@@ -1,6 +1,6 @@
 {
   "name": "everify-node",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Node client for the Everify API - secure SMS verification made simple",
   "repository": {
     "type": "git",
@@ -46,7 +46,7 @@
   "dependencies": {
     "axios": "^0.21.1"
   },
-  "devDependencies": {    
+  "devDependencies": {
     "@types/node": "^14.14.25",
     "@typescript-eslint/eslint-plugin": "^4.0.1",
     "@typescript-eslint/parser": "^4.0.1",
