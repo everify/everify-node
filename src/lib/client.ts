@@ -60,7 +60,7 @@ const getAxiosInstance = ({
     (res) => res,
     (err) => {
       const contentType = err.response?.headers?.['content-type'];
-      if (!contentType && !contentType.includes('application/json')) {
+      if (!contentType || !contentType.includes('application/json')) {
         throw new Error(
           `Invalid Server response. Status ${err.response.status}. Data: ${err.response.data}`
         );
